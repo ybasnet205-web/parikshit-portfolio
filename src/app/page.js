@@ -48,7 +48,7 @@ export default function HomePage() {
           className="absolute bottom-20 right-20 w-56 opacity-[0.26] pointer-events-none"
         />
 
-        <div className="relative z-10 max-w-[1560px] mx-auto px-6 md:px-10 py-28 min-h-[75vh] flex items-center">
+        <div className="relative z-10 max-w-[1560px] mx-auto px-6 md:px-10 py-16 md:py-20 min-h-[calc((100vh-90px)*0.75)] flex items-center">
           <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
 
             {/* ---------------------------- Hero Content ---------------------------- */}
@@ -128,7 +128,7 @@ export default function HomePage() {
         </div>
 
         {/* Consistent Vertical Rhythm */}
-        <div className="mt-12"></div>
+        <div className="mt-8"></div>
 
         {/* ------------------------- Floating Content Card ------------------------- */}
         <div className="relative max-w-[1200px] mx-auto px-6">

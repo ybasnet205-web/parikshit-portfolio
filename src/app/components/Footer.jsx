@@ -66,7 +66,13 @@ export default function Footer() {
         <div className="md:col-span-2">
           <Link
             href="/"
-            className="text-3xl font-mono italic tracking-widest text-[#C51F65]"
+            className="
+              text-5xl
+              font-semibold
+              tracking-wide
+              text-[#C51F65]
+              font-[ui-serif]
+            "
           >
             parikshit.
           </Link>
@@ -95,14 +101,7 @@ export default function Footer() {
         <div>
             <h4 className="text-white font-semibold mb-6">Office</h4>
 
-            <p className="text-sm leading-relaxed mb-4">
-                Access Education Network<br />
-                5th Floor, Block B, Indreni Complex<br/>
-                New Baneshwor, Kathmandu<br />
-                Nepal
-            </p>
-
-            <div className="rounded-xl overflow-hidden border border-white/20">
+            <div className="rounded-xl mb-5 overflow-hidden border border-white/20">
                 <iframe
                     title="Office Location"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d220.8078923580501!2d85.33200867249249!3d27.688673347073173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19bdd6be48d9%3A0x5ca9f9ea2a0b6aa!2sIndreni%20World!5e0!3m2!1sen!2sus!4v1767809659581!5m2!1sen!2sus"
@@ -113,6 +112,14 @@ export default function Footer() {
                     />
 
             </div>
+
+            <p className="text-sm leading-relaxed mb-4">
+                Access Education Network<br />
+                5th Floor, Block B, Indreni Complex<br/>
+                New Baneshwor, Kathmandu<br />
+                Nepal
+            </p>
+
         </div>
 
 
