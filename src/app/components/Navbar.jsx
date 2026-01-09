@@ -101,7 +101,7 @@ export default function Navbar() {
                                 href={sub.href}
                                 className="
                                   block px-6 py-3
-                                  text-sm font-medium
+                                  text-29 font-medium
                                   text-[#0E1B3A]
                                   hover:text-[#C51F65]
                                   hover:bg-[#F9FAFB]

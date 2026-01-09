@@ -10,6 +10,8 @@ const images = [
   "/images/1.jpeg",
   "/images/2.jpeg",
   "/images/3.jpeg",
+  "/images/DSC_0316.jpg",
+  "/images/DSC_0364.jpg",
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -157,7 +159,7 @@ export default function HomePage() {
               <div>
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl">
                   <img
-                    src="/images/about-portrait.jpg"
+                    src="/images/4.jpeg"
                     alt="Parikshit Sapkota"
                     className="h-full w-full object-cover"
                   />
